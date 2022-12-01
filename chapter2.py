@@ -113,7 +113,68 @@ Bloco 3:
 
 
 
+9 - Escreva um código que exiba Hello se 1 estiver armazenado em spam, Howdy
+se 2 estiver armazenado em spam e Greetings! se outro valor estiver
+armazenado em spam.
+
+spam = 1;
+if (spam == 1):
+    print("Hello!")
+elif (spam == 2):
+    print("Howdy!")
+else:
+    print("Greetings!")
+
+
+
+10 - Que tecla você deve pressionar se o seu programa estiver preso em um loop infinito?
+
+Pressionando ctrl + c o Python é encerrado.
+
+
+
+11 - Qual é a diferença entre break e continue?
+
+O break interrompe a execuçãod e um bloco de código, enquano o continue faz o 
+contrário, continua a execução mesmo após uma condição ter ocorrido.
+
+
+
+12 - Qual é a diferença entre range(10), range(0, 10) e range(0, 10, 1) em um loop
+for?
+
+Em termos de execução de código não há diferença. As três formas da função range
+correspondem a mesma instrução.
+
+
+
+13 - Crie um pequeno programa que mostre os números de 1 a 10 usando um
+loop for. Em seguida, crie um programa equivalente que mostre os números
+de 1 a 10 usando um loop while
+
+numero = 1;
+for i in range(0,10,1):
+    print(numero);
+    numero = numero + 1;
+
+
+numero = 0;
+while (numero < 10):
+    print(numero + 1);
+    numero = numero + 1;
+
+
+
+14 - Se você tivesse uma função chamada bacon() em um módulo chamado
+spam, como você a chamaria após ter importado spam?
+
+Após realizar o import da função, bastaria chamá-la no código.
+
+from spam import bacon
+
+bacon();
 
 '''
+
 
 
